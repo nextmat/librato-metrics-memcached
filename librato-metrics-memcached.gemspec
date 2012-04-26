@@ -46,9 +46,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<librato-metrics>, ["~> 0.5.0"])
       s.add_development_dependency(%q<shoulda>, [">= 0"])
       s.add_development_dependency(%q<rdoc>, ["~> 3.12"])
-      s.add_development_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.8.3"])
-      s.add_development_dependency(%q<rcov>, [">= 0"])
     else
       s.add_dependency(%q<trollop>, ["~> 1.16.2"])
       s.add_dependency(%q<memcached>, ["~> 1.4.1"])
@@ -56,9 +54,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<librato-metrics>, ["~> 0.5.0"])
       s.add_dependency(%q<shoulda>, [">= 0"])
       s.add_dependency(%q<rdoc>, ["~> 3.12"])
-      s.add_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_dependency(%q<jeweler>, ["~> 1.8.3"])
-      s.add_dependency(%q<rcov>, [">= 0"])
     end
   else
     s.add_dependency(%q<trollop>, ["~> 1.16.2"])
@@ -67,9 +63,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<librato-metrics>, ["~> 0.5.0"])
     s.add_dependency(%q<shoulda>, [">= 0"])
     s.add_dependency(%q<rdoc>, ["~> 3.12"])
-    s.add_dependency(%q<bundler>, ["~> 1.0.0"])
     s.add_dependency(%q<jeweler>, ["~> 1.8.3"])
-    s.add_dependency(%q<rcov>, [">= 0"])
   end
 end
 
